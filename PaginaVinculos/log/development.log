@@ -1,0 +1,1971 @@
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-13 16:47:42 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 8347ms (Views: 8229.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:47:53 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:47:53 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:47:54 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:47:54 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:47:54 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:47:54 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-13 16:48:58 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 976ms (Views: 974.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:48:59 -0500
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:48:59 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:48:59 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:48:59 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:48:59 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 16:48:59 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 16:48:59 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 16:48:59 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 16:48:59 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:48:59 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:48:59 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:48:59 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:00 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:00 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:00 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-13 16:49:33 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.5ms)
+Completed 200 OK in 305ms (Views: 303.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:49:33 -0500
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:49:33 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:49:33 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:49:33 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:49:34 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 16:49:34 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:34 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:34 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:34 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:34 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:34 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:34 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:34 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:34 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:34 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-13 16:49:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.5ms)
+Completed 200 OK in 264ms (Views: 261.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 16:49:55 -0500
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 16:49:56 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 294ms (Views: 293.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 16:55:02 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (95.5ms)
+Completed 500 Internal Server Error in 1790ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `contact_index_path' for #<#<Class:0x000000057f3960>:0x000000056c94b8>):
+    4:   <li><%=link_to "Ventas", sale_index_path %></li>
+    5:   <li><%=link_to "Clientes", customer_index_path %></li>
+    6:   <li><%=link_to "Proveedores", provider_index_path %></li>
+    7:   <li><%=link_to "Contactanos", contact_index_path %></li>
+    8: </lu>
+  app/views/partials/_navigation.html.erb:7:in `_app_views_partials__navigation_html_erb___1076532383_98483660'
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___512268341_99535520'
+
+
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1593.6ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (2101.3ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (4366.6ms)
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 16:55:57 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (2.5ms)
+Completed 200 OK in 349ms (Views: 347.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 16:55:57 -0500
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:55:57 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 16:55:58 -0500
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 16:56:21 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 924ms (Views: 923.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:22 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:22 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:22 -0500
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:22 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:22 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:22 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:22 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:23 -0500
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 16:56:33 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (3.0ms)
+Completed 200 OK in 352ms (Views: 350.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:34 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:35 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:35 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:35 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:35 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:35 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:35 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:35 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:35 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:35 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 16:56:35 -0500
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 16:57:02 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.5ms)
+  Rendered partials/_navigation.html.erb (3.0ms)
+Completed 200 OK in 462ms (Views: 448.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:03 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:04 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:04 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:04 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:04 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:04 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:04 -0500
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 16:57:48 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (3.0ms)
+Completed 200 OK in 366ms (Views: 365.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 16:57:49 -0500
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 16:58:12 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 350ms (Views: 348.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:58:12 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 16:58:12 -0500
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:58:12 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 16:58:12 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 16:58:12 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 16:58:12 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:58:12 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:58:12 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:58:12 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 16:58:13 -0500
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 16:59:17 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (3.0ms)
+Completed 200 OK in 435ms (Views: 432.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:18 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:19 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:19 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:19 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:19 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:19 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:19 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:19 -0500
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 16:59:28 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (0.5ms)
+Completed 200 OK in 367ms (Views: 364.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:29 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:30 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:30 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:30 -0500
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 16:59:36 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.5ms)
+Completed 200 OK in 436ms (Views: 434.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:37 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:38 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:38 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:38 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:38 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:38 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:38 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:38 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:38 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:38 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:38 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:38 -0500
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 16:59:55 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (29.0ms)
+Completed 200 OK in 485ms (Views: 484.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:56 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:56 -0500
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:56 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:56 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:56 -0500
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:56 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:56 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:56 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:56 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 16:59:57 -0500
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:00:10 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (2.5ms)
+Completed 200 OK in 397ms (Views: 396.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:11 -0500
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:11 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:11 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:11 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:11 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:11 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:11 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:11 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:11 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:11 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:11 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:11 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:12 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:12 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:12 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:12 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:12 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:12 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:12 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:12 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:12 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:12 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:12 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:12 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:12 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:12 -0500
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:00:34 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (3.5ms)
+Completed 200 OK in 476ms (Views: 473.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:35 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:36 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:36 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:36 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:36 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:36 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:36 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:36 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:36 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:36 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 17:00:36 -0500
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:00:40 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (3.0ms)
+Completed 200 OK in 385ms (Views: 384.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:00:42 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 374ms (Views: 372.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:00:43 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 369ms (Views: 368.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:00:44 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 362ms (Views: 360.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:00:44 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 385ms (Views: 384.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customer/index" for 127.0.0.1 at 2016-06-13 17:00:45 -0500
+Processing by CustomerController#index as HTML
+  Rendered customer/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 369ms (Views: 367.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/provider/index" for 127.0.0.1 at 2016-06-13 17:00:45 -0500
+Processing by ProviderController#index as HTML
+  Rendered provider/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 401ms (Views: 399.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:00:48 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 358ms (Views: 357.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:00:50 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 304ms (Views: 303.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:00:53 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 334ms (Views: 333.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:00:55 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 324ms (Views: 323.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:01:51 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (2.5ms)
+Completed 200 OK in 339ms (Views: 338.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 17:01:52 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:01:53 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:01:53 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:01:53 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:01:53 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 17:01:53 -0500
+
+
+Started GET "/product/index" for 127.0.0.1 at 2016-06-13 17:01:54 -0500
+Processing by ProductController#index as HTML
+  Rendered product/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (2.5ms)
+Completed 200 OK in 380ms (Views: 378.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 127.0.0.1 at 2016-06-13 17:02:46 -0500
+Processing by ProductController#index as HTML
+  Rendered product/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 351ms (Views: 349.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 17:02:47 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:02:48 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:02:48 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:02:48 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 17:02:48 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 17:02:48 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 17:02:48 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:02:48 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:02:48 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:02:48 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:02:48 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 17:02:48 -0500
+
+
+Started GET "/product/index" for 127.0.0.1 at 2016-06-13 17:04:49 -0500
+Processing by ProductController#index as HTML
+  Rendered product/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 394ms (Views: 392.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:04:49 -0500
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:04:50 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 17:04:51 -0500
+
+
+Started GET "/product/index" for 127.0.0.1 at 2016-06-13 17:05:08 -0500
+Processing by ProductController#index as HTML
+  Rendered product/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.5ms)
+Completed 200 OK in 429ms (Views: 427.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 17:05:09 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 17:05:09 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 17:05:09 -0500
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:05:09 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 17:05:09 -0500
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:05:09 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:05:09 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:05:09 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:05:09 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:05:09 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:05:09 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 17:05:09 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 17:05:09 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 17:05:10 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 17:05:10 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:05:10 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:05:10 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:05:10 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 17:05:10 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 17:05:10 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 17:05:10 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:05:10 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:05:10 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:05:10 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:05:10 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 17:05:10 -0500
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:05:13 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (3.0ms)
+Completed 200 OK in 447ms (Views: 445.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customer/index" for 127.0.0.1 at 2016-06-13 17:05:14 -0500
+Processing by CustomerController#index as HTML
+  Rendered customer/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 460ms (Views: 459.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/provider/index" for 127.0.0.1 at 2016-06-13 17:05:16 -0500
+Processing by ProviderController#index as HTML
+  Rendered provider/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 381ms (Views: 380.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 127.0.0.1 at 2016-06-13 17:05:17 -0500
+Processing by ContactController#index as HTML
+  Rendered contact/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 395ms (Views: 393.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:33:55 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 453ms (Views: 451.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customer/index" for 127.0.0.1 at 2016-06-13 17:33:57 -0500
+Processing by CustomerController#index as HTML
+  Rendered customer/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 418ms (Views: 417.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/provider/index" for 127.0.0.1 at 2016-06-13 17:33:58 -0500
+Processing by ProviderController#index as HTML
+  Rendered provider/index.html.erb within layouts/application (0.5ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 437ms (Views: 435.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 127.0.0.1 at 2016-06-13 17:34:01 -0500
+Processing by ProductController#index as HTML
+  Rendered product/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 403ms (Views: 402.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-13 17:34:03 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 425ms (Views: 422.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 127.0.0.1 at 2016-06-13 17:34:18 -0500
+Processing by ContactController#index as HTML
+  Rendered contact/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 424ms (Views: 422.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 127.0.0.1 at 2016-06-13 17:34:42 -0500
+Processing by ContactController#index as HTML
+  Rendered contact/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 322ms (Views: 322.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:34:42 -0500
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:34:42 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 17:34:42 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 17:34:42 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 17:34:42 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 17:34:42 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:34:42 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 17:34:43 -0500
+
+
+Started GET "/contact/index" for 127.0.0.1 at 2016-06-13 17:35:02 -0500
+Processing by ContactController#index as HTML
+  Rendered contact/index.html.erb within layouts/application (0.5ms)
+  Rendered partials/_navigation.html.erb (3.0ms)
+Completed 200 OK in 388ms (Views: 386.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/article.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/contact.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.min.self-9d66c8257854598a8bb867788558ea1daa20065a3fe9a827b5ed3fea25b98ba3.css?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/css/bootstrap-theme.self-797c795b8478a63ecf57ed925bbf6d452e951329623561a6042c306da1b713f8.css?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/css/bootstrap.self-a0b12b9400b7d0603495ae874e39aa04d8333be386df078f385c4fc55f691ed9.css?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/css/bootstrap.min.self-64d394d106d87a7308d08c19483f59ef91e856954f3f5169c2c6f63d19ee54b8.css?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/customer.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/product.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/provider.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/sale.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/article.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:35:03 -0500
+
+
+Started GET "/assets/contact.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:35:04 -0500
+
+
+Started GET "/assets/customer.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:35:04 -0500
+
+
+Started GET "/assets/js/bootstrap.self-6c92f650931beefe48977f272b7015d6b9b45da8b09831ebf88e05193c12d355.js?body=1" for 127.0.0.1 at 2016-06-13 17:35:04 -0500
+
+
+Started GET "/assets/js/bootstrap.min.self-075878ec6a19d24f3b46052eb9e0e5bb5c2a098ac50d05d8e3a21309d129273a.js?body=1" for 127.0.0.1 at 2016-06-13 17:35:04 -0500
+
+
+Started GET "/assets/js/npm.self-f66d504f2cd5bddaaade9c854b02828e5e46d225517ab9feebe1af2615566b1e.js?body=1" for 127.0.0.1 at 2016-06-13 17:35:04 -0500
+
+
+Started GET "/assets/product.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:35:04 -0500
+
+
+Started GET "/assets/provider.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:35:04 -0500
+
+
+Started GET "/assets/sale.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:35:04 -0500
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-06-13 17:35:04 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-06-13 17:35:04 -0500
+
+
+Started GET "/provider/index" for 127.0.0.1 at 2016-06-13 17:35:10 -0500
+Processing by ProviderController#index as HTML
+  Rendered provider/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 347ms (Views: 345.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product/index" for 127.0.0.1 at 2016-06-13 17:38:51 -0500
+Processing by ProductController#index as HTML
+  Rendered product/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 379ms (Views: 377.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-13 17:38:53 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 343ms (Views: 342.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customer/index" for 127.0.0.1 at 2016-06-13 17:38:54 -0500
+Processing by CustomerController#index as HTML
+  Rendered customer/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 339ms (Views: 338.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/provider/index" for 127.0.0.1 at 2016-06-13 17:38:55 -0500
+Processing by ProviderController#index as HTML
+  Rendered provider/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 368ms (Views: 366.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact/index" for 127.0.0.1 at 2016-06-13 17:38:56 -0500
+Processing by ContactController#index as HTML
+  Rendered contact/index.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 347ms (Views: 345.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-13 17:38:58 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 394ms (Views: 392.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-06-14 16:53:13 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (15.0ms)
+  Rendered partials/_navigation.html.erb (3.0ms)
+Completed 200 OK in 2503ms (Views: 2468.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sale/index" for 127.0.0.1 at 2016-06-14 16:53:22 -0500
+Processing by SaleController#index as HTML
+  Rendered sale/index.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (7.0ms)
+Completed 200 OK in 709ms (Views: 706.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customer/index" for 127.0.0.1 at 2016-06-14 16:53:23 -0500
+Processing by CustomerController#index as HTML
+  Rendered customer/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.5ms)
+Completed 200 OK in 622ms (Views: 620.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/provider/index" for 127.0.0.1 at 2016-06-14 16:53:25 -0500
+Processing by ProviderController#index as HTML
+  Rendered provider/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (1.5ms)
+Completed 200 OK in 588ms (Views: 586.3ms | ActiveRecord: 0.0ms)

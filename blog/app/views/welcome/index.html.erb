@@ -1,0 +1,9 @@
+<% if user_signed_in? %>
+	<center><h1>Bienvenido <%= current_user.email %></h1></center>
+	<%else%>
+	<center><h1>Bienvenidos a mi blog</h1></center>
+<%end%>
+<hr>
+  <p class="text-center">Este blog sirve para aportar opiniones sobre....</p>
+<hr>
+	<center><i>COPYRIGHT&copy</i></center>
