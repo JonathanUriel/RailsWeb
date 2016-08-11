@@ -1,0 +1,50 @@
+<article class="panel panel-primary page-header">
+  <article class="panel-heading text-center">
+    <h3 class="panel-title"><%= @product.name %></h3>
+  </article>
+  <article class="panel-body">
+    <p class="text-center">
+  <%if @product.has_imagen? %>
+  <%=image_tag(@product.imagen_path, size:"300x250" )%>
+      <% else %>
+      <%= image_tag("/assets/missing.jpg", size: "300x250")  %>
+      <%end%>
+</p>
+
+<p>
+  <strong>Nombre Producto:</strong>
+  <%= @product.name %>
+</p>
+
+<p>
+  <strong>Precio Venta:</strong>
+  <%= @product.sale_price %>
+</p>
+
+<p>
+  <strong>Precio Compra:</strong>
+  <%= @product.purchase_price %>
+</p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @product.description %>
+</p>
+
+<p>
+  <strong>Uso:</strong>
+  <%= @product.use %>
+</p>
+
+<p>
+  <strong>Cantidad:</strong>
+  <%= @product.cantidad %>
+</p>
+
+<p>
+  <strong>Proveedor:</strong>
+  <%= @product.provider.name %>
+</p>
+<%= link_to 'Regresar', galleries_path(id: 0), class: "btn btn-danger" %>
+  </article>
+</article>

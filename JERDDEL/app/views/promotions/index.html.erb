@@ -1,0 +1,57 @@
+<h1 class="page-header">Algunas de Nuestras Promociones</h1>
+<!--Empieza bootstrap-->
+<article class="carousel-size container">
+  <article id="carousel-1" class="carousel slide" data-ride="carousel">
+    <!--Inidcadore-->
+    <ol class="carousel-indicators">
+      <% for i in 0..(@gallery.size-1) do %>
+          <li data-target="#carousel-1" data-slide-to="<%=i %>" class="<%if i == 0 then %> active<% end%>"></li>
+      <%end%>
+    </ol>
+    <!--Contenedor de los slide-->
+    <article class="carousel-inner" role="listbox">
+      <% @gallery.each do |g|%>
+          <article class="item <%if g.id == @gallery.first.id %>active <%else end %>">
+            <img src="<%= if g.product.has_imagen? then g.product.imagen_path else '/assets/missing.jpg' end %>" class="img-responsive image-carousel">
+            <article class="carousel-caption">
+              <h3><%=g.product.name %></h3>
+              <p><%=g.promocion %></p>
+            </article>
+          </article>
+      <% end%>
+    </article>
+  </article>
+</article>
+
+<h1 class="page-header">Promociones</h1>
+<article class="row">
+  <% @gallery.each do |g| %>
+      <article class="col-sm-4 text-center">
+        <article class="panel panel-primary">
+          <article class="panel-heading">
+            <h3 class="panel-title"><%=g.product.name%></h3>
+          </article>
+          <article class="panel-body">
+            <p>
+              <%if g.product.has_imagen? %>
+                  <%=image_tag(g.product.imagen_path, size:"200x150" )%>
+              <% else %>
+                  <%= image_tag("/assets/missing.jpg", size: "200x150")  %>
+              <%end%>
+            </p>
+            <p><strong>Promocion:</strong><%=g.promocion%></p>
+            <%= link_to(raw("<span class='glyphicon glyphicon-plus' aria-hidden='true'></span>"+' Mas Informacion'),{controller: 'promotions',action: 'show', id: g.id},class: "btn btn-info")%>
+          </article>
+        </article>
+      </article>
+  <%end%>
+</article>
+
+
+<h1 class="page-header">Videos</h1>
+<div class="container text-center">
+  <% @video.each do |v|%>
+      <iframe class="video" src="https://www.youtube.com/embed/<%=v.url[v.url.index("=")+1,v.url.length] %>" frameborder="0" allowfullscreen></iframe>
+  <%end%>
+</div>
+<hr>

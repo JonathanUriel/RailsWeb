@@ -1,0 +1,56 @@
+<nav class="be-blue">
+  <%=link_to "JERDDEL", root_path, class: "navbar-brand"%>
+  <article class="container">
+    <article class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </article>
+  <article id="navbar" class="navbar-collapse collapse">
+  <ul class="nav navbar-nav ">
+    <li>
+      <%= link_to(raw("<span class='glyphicon glyphicon-home' aria-hidden='true'></span>"+" Inicio"),root_path)%>
+    </li>
+    <li>
+      <%= link_to(raw("<span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'> </span>"+" Productos"),galleries_path(id: 0))%>
+    </li>
+    <!--li>
+      <!%= link_to(raw("<span class='glyphicon glyphicon-usd' aria-hidden='true'> </span>"+" Ventas") )%>
+    </li>
+    <li>
+      <!%= link_to(raw("<span class='glyphicon glyphicon-credit-card' aria-hidden='true'> </span>"+" Compras") )%>
+    </li-->
+    <% if user_signed_in? %>
+    <li>
+      <%=link_to(raw("<span class='glyphicon glyphicon-user' aria-hidden='true'> </span>"+" Proveedores"), providers_path )%>
+    </li>
+    <%end%>
+    <li>
+      <%= link_to(raw("<span class='glyphicon glyphicon-bullhorn' aria-hidden='true'> </span>"+" Promociones"), promotions_path)%>
+    </li>
+    <li>
+      <%= link_to(raw("<span class='glyphicon glyphicon-envelope' aria-hidden='true'></span>"+" Contáctanos "),localization_index_path)%>
+    </li>
+    <% if user_signed_in? %>
+    <li>
+      <%= link_to(raw("<span class='glyphicon glyphicon-cog' aria-hidden='true'></span>"+" Configuración"),config_index_path)%>
+    </li>
+    <%end%>
+  </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <% if user_signed_in? %>
+         <li>
+           <%= link_to(raw("<span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>"+" Cerrar Sesión"),destroy_user_session_path, method: :delete)%>
+         </li>
+      <%else%>
+      <li>
+        <%= link_to(raw("<span class='glyphicon glyphicon-log-in' aria-hidden='true'></span>"+" Iniciar Sesión"),new_user_session_path)%>
+      </li>
+      <%end%>
+    </ul>
+  </article>
+    </article>
+</nav>

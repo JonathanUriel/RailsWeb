@@ -1,0 +1,31 @@
+<h1>¿Quienés Somos?</h1>
+<% @information.each do |i|%>
+    <div class="panel panel-default">
+      <div class="panel-heading"><h4>Nuestra Historia</h4></div>
+      <div class="panel-body">
+        <p class="text-primary"><%=i.history%></p>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading"><h4>Nuestra Misión</h4></div>
+      <div class="panel-body">
+        <p class="text-primary"><%=i.mission%></p>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading"><h4>Nuestro Visión</h4></div>
+      <div class="panel-body">
+        <p class="text-primary"><%=i.vision%></p>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading"><h4>Nuestros Valores</h4></div>
+      <div class="panel-body">
+        <p class="text-primary"><%=i.values%></p>
+      </div>
+    </div>
+
+<%end%>

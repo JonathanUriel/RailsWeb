@@ -1,0 +1,30 @@
+<article class="panel panel-primary page-header">
+  <article class="panel-heading text-center">
+    <h3 class="panel-title"><%= @welcome.name %></h3>
+  </article>
+  <article class="panel-body">
+    <p class="text-center">
+      <%if @welcome.has_imagen? %>
+          <%=image_tag(@welcome.imagen_path, size:"300x250" )%>
+      <% else %>
+          <%= image_tag("/assets/missing.jpg", size: "300x250")  %>
+      <%end%>
+    </p>
+    <p>
+      <strong>Precio Venta:</strong>
+      <%= @welcome.sale_price %>
+    </p>
+
+    <p>
+      <strong>Descripcion:</strong>
+      <%= @welcome.description %>
+    </p>
+
+    <p>
+      <strong>Uso:</strong>
+      <%= @welcome.use %>
+    </p>
+    <%= link_to 'Regresar', root_path, class: "btn btn-danger" %>
+  </article>
+</article>
+

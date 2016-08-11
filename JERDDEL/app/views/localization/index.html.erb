@@ -1,0 +1,19 @@
+<h1 class="text-center page-header text-primary">Contáctanos o Localizanos</h1>
+<% @contacts.each do |contact| %>
+    <article class="page-header">
+      <article class="text-center">
+        <%if contact.has_imagen_contact? %>
+            <%=image_tag(contact.imagen_path_contact, size:"400x200" )%>
+        <% else %>
+            <%= image_tag("/assets/missing.jpg", size: "50x50")  %>
+        <%end%>
+      </article>
+      <br>
+      <article class="">
+        <h4>Empresa:</h4><h4 class="text-primary"><%=contact.name%></h4>
+        <h4>Direccion:</h4><h4 class="text-primary"><%=contact.address%></h4>
+        <h4>Telefono(s):</h4><h4 class="text-primary"><%=contact.phone%></h4>
+        <h4>Email:</h4><h4 class="text-primary"><%=contact.email%></h4>
+      </article>
+    </article>
+<%end%>

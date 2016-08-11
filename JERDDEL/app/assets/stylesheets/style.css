@@ -1,0 +1,150 @@
+html,body{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+li{
+    list-style: none;
+}
+a,a:visited{
+    color: white;
+    text-decoration: none;
+}
+#elemento a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 9px;
+    color: #ffffff;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+#elemento a:hover{
+    padding: 6px 18px;
+}
+#elemento .fb{
+    background:  #3b5998;
+}
+#elemento .fb:hover{
+    background:  #000000;
+}
+#elemento .tw{
+    background: #28a9e0;
+}
+#elemento .tw:hover{
+    background:  #000000;
+}
+#error_explanation {
+    width: 450px;
+    border: 2px solid #EF5350;
+    padding: 7px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+#error_explanation > h2 {
+    background: #EF5350;
+}
+#error_explanation > ul li {
+    list-style: decimal;
+}
+#logo{
+    font-size: 1.2em;
+}
+.active-menu{
+    background: #2b669a;
+}
+.alert{
+    border: none;
+    border-radius: 0;
+}
+.be-blue{
+    background-color: #337ab7;
+}
+.be-blue .navbar-toggle{
+    border-color: #ddd;
+}
+.be-blue .navbar-toggle:hover,
+.be-blue .navbar-toggle:focus {
+    background: #337ab7;
+    color: #ffffff;
+}
+.be-blue .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.be-red{
+    background-color: #EF5350;
+}
+.carousel-size{
+    max-width: 70%;
+
+}
+.contenedor{
+    position: fixed;
+    z-index: 2000;
+    left: 0px;
+    top: 250px;
+}
+.close:hover{
+    background: none;
+}
+.field_with_errors {
+    padding:.15em;
+    width: 100%;
+    border-radius: .4em;
+    background: #EF5350;
+}
+.footer{
+    width: 100%;
+    bottom: 0;
+    margin-bottom: auto;
+    position: absolute;
+}
+.large-padding{
+    padding: 10px 7px;
+}
+.image-carousel{
+    width: 100%;
+    max-height: 30em;
+}
+.image-show{
+    border-radius: 2em;
+}
+.nav > li > a:hover{
+    background: #2b669a;
+}
+.no-margin{
+    margin: 0px;
+}
+.text-withe{
+    color: #ffffff;
+    font-size: 2em;
+    padding: .5em;
+}
+.usuario{
+    font-size: 1.4em;
+    padding: .5em;
+}
+.video{
+    width: 40%;
+    height: 30em;
+    padding: 2em;
+}
+.video1{
+    width: 20em;
+    height: 20em;
+    padding: 2em;
+}
+.pagination{
+    background: #2b669a;
+    font-size: 1.5em;
+    padding: .5em;
+}
+
+.pagination a:hover{
+    color: #0f0f0f;
+    background: none;
+    text-decoration: none;
+}
+.previous_page,.current,.next_page{
+    color: #ffffff;
+}

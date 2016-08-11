@@ -1,0 +1,40 @@
+<%= form_for(@gallery) do |f| %>
+  <% if @gallery.errors.any? %>
+      <div id="error_explanation">
+        <h2>No se pudieron guardar los datos. <%= pluralize(@gallery.errors.count, "errore") %>: </h2>
+
+        <ul>
+        <% @gallery.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+        </ul>
+      </div>
+    <% end %>
+
+      <div class="form-group">
+        <div class="field">
+          <%= f.label :Tipo %><br>
+          <%= f.text_field :tipo, class: "form-control", value: @value, readonly: "true" %>
+        </div>
+      </div>
+
+      <%if @value == "Promocion"%>
+        <div class="form-group">
+                <div class="field">
+                  <%= f.label :Promocion %><br>
+                  <%= f.text_field :promocion, class: "form-control"%>
+                </div>
+              </div>
+      <%end%>
+        <div class="form-group">
+    <div class="field ">
+      <%= f.label :Imagen %><br>
+      <%= f.collection_select(:product_id, Product.order(:name),:id, :name, {prompt: "--Selecciona una opción--" }, {class: "form-control"}) %>
+    </div>
+          </div>
+
+    <div class="actions">
+      <%= f.submit "Guardar", class: "btn btn-success" %>
+    </div>
+
+<%end%>

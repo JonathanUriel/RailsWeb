@@ -1,0 +1,17 @@
+<article class="container page-header" style="width: 60%;">
+  <article class="panel panel-primary">
+    <article class="panel-heading">
+      <h1>Editar Video</h1>
+    </article>
+    <article class="panel-body">
+      <%= render 'form' %>
+      <% if @value == "Inicio"
+           @id = 1
+         else
+           @id = 2
+         end
+      %>
+      <%= link_to 'Regresar',{controller: "videos",id: @id}, class: "btn btn-danger" %>
+    </article>
+  </article>
+</article>

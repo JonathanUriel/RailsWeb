@@ -1,0 +1,45 @@
+<% if !notice.blank? %>
+    <div class="alert alert-success">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <p><%= notice %></p>
+    </div>
+<%end%>
+
+<article class="panel panel-primary page-header">
+  <article class="panel-heading text-center">
+    <h3 class="panel-title"><%= @contact.name %></h3>
+  </article>
+  <article class="panel-body">
+  <p class="text-center">
+    <%if @contact.has_imagen_contact? %>
+        <%=image_tag(@contact.imagen_path_contact, size:"300x250" )%>
+    <% else %>
+        <%= image_tag("/assets/missing.jpg", size: "300x250")  %>
+    <%end%>
+  </p>
+
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @contact.name %>
+</p>
+
+<p>
+  <strong>Dirección:</strong>
+  <%= @contact.address %>
+</p>
+
+<p>
+  <strong>Telefono:</strong>
+  <%= @contact.phone %>
+</p>
+
+<p>
+  <strong>Correo:</strong>
+  <%= @contact.email %>
+</p>
+
+<%= link_to 'Editar', edit_contact_path(@contact),class: "btn btn-info"  %>
+<%= link_to 'Regresar', contacts_path,class: "btn btn-danger"  %>
+  </article>
+</article>

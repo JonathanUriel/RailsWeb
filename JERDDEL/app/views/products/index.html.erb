@@ -1,0 +1,60 @@
+<article class="text-center page-header">
+<h1>Lista de Productos</h1>
+</article>
+
+<%= link_to 'Nuevo Producto', new_product_path, class: "btn btn-success" %>
+<%= link_to 'Ver Galeria', galleries_path(id: 0), class: "btn btn-primary" %>
+
+  <article class="form-inline container text-center">
+    <article>
+      <i>Busqueda por nombre del producto:</i>
+    </article>
+    <%= form_tag products_path, :method => 'get' do %>
+        <article class="form-group">
+        <%= text_field_tag :search, params[:search],class: "form-control" %>
+        </article>
+        <article class="form-group">
+        <%= submit_tag "Buscar", :name => nil, class: "btn btn-default form-control" %>
+    <% end %>
+        </article>
+   </article>
+    <hr>
+<table class="table table-responsive">
+  <thead class="text-info">
+    <tr>
+      <th>Nombre Producto</th>
+      <th>Precio Venta</th>
+      <th>Precio Compra</th>
+      <th>Cantidad</th>
+      <th>Proveedor</th>
+      <th>Imagen</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @products.each do |product| %>
+      <tr>
+        <td><%= product.name %></td>
+        <td><%= product.sale_price %></td>
+        <td><%= product.purchase_price %></td>
+        <td><%= product.cantidad %></td>
+        <td><%= product.provider.name %></td>
+        <td>
+        <%if product.has_imagen? %>
+            <%=image_tag(product.imagen_path, size:"50x50" )%>
+        <% else %>
+              <%= image_tag("/assets/missing.jpg", size: "50x50")  %>
+        <%end%>
+        </td>
+        <td><%= link_to 'Mostrar', product,class: "btn btn-info" %></td>
+        <td><%= link_to 'Editar', edit_product_path(product), class: "btn btn-warning" %></td>
+        <td><%= link_to 'Eliminar', product,class: "btn btn-danger", method: :delete, data: { confirm: '¿Estas Seguro?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<div class="text-center paginador">
+<%= will_paginate @products %>
+</div>
+<br>

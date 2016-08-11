@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JERDDEL</title>
+  <%= favicon_link_tag 'favicon.ico' %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= render "partials/navigation"%>
+
+<% if user_signed_in? %>
+<article class="col-sm-3"></article>
+<article class="col-sm-3"></article>
+<article class="col-sm-3"></article>
+<article class="usuario col-sm-3 text-right text-primary">
+<%=image_tag("usuario.jpeg",size: "25")%> <%= current_user.email %>
+</article>
+</article>
+<%end%>
+<% if !notice.blank? %>
+    <article class="alert alert-info alert-dismissable" style="z-index: 10;position: fixed " role="alert" id="notice"><%=notice%>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    </article>
+<%end%>
+<% if !alert.blank? %>
+    <article class="alert alert-warning alert-dismissable" style="z-index: 10;position: fixed " role="alert" id="notice"><%=alert%>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    </article>
+<%end%>
+
+<article class="container">
+  <%= yield %>
+</article>
+
+<%= render "partials/social"%>
+<%= render "partials/footer"%>
+</body>
+</html>

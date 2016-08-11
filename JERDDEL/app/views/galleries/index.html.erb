@@ -1,0 +1,99 @@
+<%if !@gallery.blank? %>
+    <h1 class="text-center page-header">Galeria de Productos</h1>
+
+    <% if user_signed_in? %>
+        <%= link_to "Administrar Productos", products_path, class: "btn btn-primary"  %>
+    <%end%>
+
+    <article class="row page-header">
+      <% @gallery.each do |g| %>
+          <article class="col-sm-4 text-center">
+            <article class="panel panel-primary">
+              <article class="panel-heading">
+                <h3 class="panel-title"><%=g.name %></h3>
+              </article>
+              <article class="panel-body">
+                <p>
+                  <%if g.has_imagen? %>
+                      <%=image_tag(g.imagen_path, size:"200x150" )%>
+                  <% else %>
+                      <%= image_tag("/assets/missing.jpg", size: "200x150")  %>
+                  <%end%>
+                </p>
+                <p><strong>Precio:</strong><%=g.sale_price%></p>
+                <%= link_to(raw("<span class='glyphicon glyphicon-plus' aria-hidden='true'></span>"+' Mas Informacion'),{controller: "galleries",action: "show", id: g.id},class: "btn btn-info")%>
+              </article>
+            </article>
+          </article>
+      <%end%>
+    </article>
+<%end%>
+
+<%if Integer(@valor) == 1 %>
+    <h1 class="text-center page-header">Galeria imagenes de Inicio</h1>
+    <h4 class="text-center text-primary">Para una mejor visualización, es recomendable, no agregar más de 5 productos.</h4>
+
+    <%= link_to 'Nueva Imagen', new_gallery_path(id: 0), class: "btn btn-success" %>
+
+    <hr>
+    <table class="table table-responsive">
+      <thead class="text-info">
+      <tr>
+        <th>Producto</th>
+        <th>Tipo</th>
+        <th colspan="3"></th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <% @inicio.each do |gallery|
+        if gallery.tipo == "Inicio"
+      %>
+          <tr>
+            <td><%= gallery.product.name %></td>
+            <td><%= gallery.tipo %></td>
+            <td><%= link_to 'Editar', edit_gallery_path(gallery), class: "btn btn-warning" %></td>
+            <td><%= link_to 'Eliminar', gallery, class: "btn btn-danger ", method: :delete, data: { confirm: '¿Estas Seguro?' } %></td>
+          </tr>
+      <% end
+      end%>
+      </tbody>
+    </table>
+    <br>
+<%end
+  if Integer(@valor) == 2 %>
+    <h1 class="text-center page-header">Galeria imagenes de Promociones</h1>
+    <h4 class="text-center text-primary">Para una mejor visualización, es recomendable, no agregar más de 5 productos.</h4>
+    <%= link_to 'Nueva Imagen', new_gallery_path(id: 1), class: "btn btn-success" %>
+
+    <hr>
+    <table class="table table-responsive">
+      <thead class="text-info">
+      <tr>
+        <th>Producto</th>
+        <th>Promocion</th>
+        <th>Tipo</th>
+        <th colspan="3"></th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <% @promocion.each do |gallery|
+        if gallery.tipo == "Promocion"
+      %>
+          <tr>
+            <td><%= gallery.product.name %></td>
+            <%if gallery.promocion.length > 15
+                @cadena = "..."
+              end%>
+            <td><%=gallery.promocion[0,15]%><%=@cadena%></td>
+            <td><%= gallery.tipo %></td>
+            <td><%= link_to 'Editar', edit_gallery_path(gallery), class: "btn btn-warning" %></td>
+            <td><%= link_to 'Eliminar', gallery, class: "btn btn-danger ", method: :delete, data: { confirm: '¿Estas Seguro?' } %></td>
+          </tr>
+      <% end
+      end%>
+      </tbody>
+    </table>
+    <br>
+<%end%>

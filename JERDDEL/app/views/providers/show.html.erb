@@ -1,0 +1,36 @@
+<article class="panel panel-primary page-header">
+  <article class="panel-heading text-center">
+    <h3 class="panel-title"><%= @provider.name %></h3>
+  </article>
+  <article class="panel-body">
+    <p class="text-center">
+
+<p>
+  <strong>Telefono:</strong>
+  <%= @provider.phone %>
+</p>
+
+<p>
+  <strong>Calle:</strong>
+  <%= @provider.street %>
+</p>
+
+<p>
+  <strong>Numbero:</strong>
+  <%= @provider.number %>
+</p>
+
+<p>
+  <strong>Colonia:</strong>
+  <%= @provider.colony %>
+</p>
+
+<p>
+  <strong>Estado:</strong>
+  <%= @provider.state.state %>
+</p>
+
+<%= link_to 'Editar', edit_provider_path(@provider), class: "btn btn-info" %>
+<%= link_to 'Regresar', providers_path, class: "btn btn-danger" %>
+</article>
+</article>

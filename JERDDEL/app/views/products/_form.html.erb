@@ -1,0 +1,73 @@
+<%= form_for @product, html:{multipart: true} do |f| %>
+  <% if @product.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@product.errors.count, "error") %> prohibited this product from being saved:</h2>
+
+      <ul>
+      <% @product.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+    <div class="form-group">
+  <div class="field">
+    <%= f.label :nombre %><br>
+    <%= f.text_field :name,class: "form-control" %>
+  </div>
+      </div>
+
+    <div class="form-group">
+  <div class="field">
+    <%= f.label :Precio_venta %><br>
+    <%= f.text_field :sale_price,class: "form-control" %>
+    </div>
+  </div>
+
+    <div class="form-group">
+  <div class="field">
+    <%= f.label :Precio_compra %><br>
+    <%= f.text_field :purchase_price,class: "form-control" %>
+  </div>
+      </div>
+
+    <div class="form-group">
+  <div class="field">
+    <%= f.label :Descripcion %><br>
+    <%= f.text_area :description,class: "form-control" %>
+  </div>
+      </div>
+
+    <div class="form-group">
+  <div class="field">
+    <%= f.label :Uso %><br>
+    <%= f.text_area :use, class: "form-control"%>
+  </div>
+      </div>
+
+    <div class="form-group">
+  <div class="field">
+    <%= f.label :Cantidad %><br>
+    <%= f.text_field :cantidad, class: "form-control" %>
+  </div>
+      </div>
+
+    <div class="form-group">
+  <div class="field">
+    <%= f.label :Proveedor %><br>
+    <%= f.collection_select(:provider_id, Provider.order(:name),:id, :name, {prompt: "--Selecciona una opción--" }, {class: "form-control"}) %>
+  </div>
+      </div>
+
+    <div class="form-group">
+    <div class="field">
+      <%=f.label "Seleccionar imagen del Producto:" %>
+      <%=f.file_field :imagen, class: "" %>
+    </div>
+      </div>
+
+  <div class="actions">
+    <%= f.submit @accion, class: "btn btn-success" %>
+  </div>
+<% end %>

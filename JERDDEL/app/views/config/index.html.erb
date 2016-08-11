@@ -1,0 +1,41 @@
+<article class="text-center page-header">
+   <h1>Configuracion de Contenido</h1>
+</article>
+<article class="text-justify text-primary">
+  <h3>Este apartado sirve para modificar los contenidos de las siguientes secciones.</h3>
+</article>
+<fieldset class="form-group">
+  <article class="page-header">
+    <h1><span class='label label-default'>Inicio</span></h1>
+    <% @id = 1 %>
+    <%= link_to "Galeria de Imagenes", {:controller  => "galleries", :action => "index", :id => @id}, class: "btn btn-primary"%>
+    <%= link_to "Productos Relevantes", relevants_path , class: "btn btn-primary"%>
+    <%= link_to "Videos de Experiencias", {:controller  => "videos", :action => "index", :id => @id} , class: "btn btn-primary"%>
+  </article>
+</fieldset>
+
+<fieldset class="form-group">
+  <article class="page-header">
+    <% @id = 2 %>
+    <h1><span class='label label-default'>Promociones</span></h1>
+    <%= link_to "Galeria de Imagenes", {:controller  => "galleries", :action => "index", :id => @id}, :method => :get , class: "btn btn-primary"%>
+    <%= link_to "Videos de Experiencias", {:controller  => "videos", :action => "index", :id => @id}, :method => :get , class: "btn btn-primary"%>
+  </article>
+</fieldset>
+
+<fieldset class="form-group">
+  <article class="page-header">
+    <h1><span class='label label-default'>Contáctanos</span></h1>
+    <%= link_to "Localización", contacts_path , class: "btn btn-primary"%>
+  </article>
+</fieldset>
+
+<fieldset class="form-group">
+  <article class="page-header">
+    <h1><span class='label label-default'>¿Quienes somos?</span></h1>
+    <% @information.each do |information|
+      information.history %>
+      <%= link_to "¿Quienes somos?", edit_information_path(information) , class: "btn btn-primary"%>
+    <%end%>
+  </article>
+</fieldset>

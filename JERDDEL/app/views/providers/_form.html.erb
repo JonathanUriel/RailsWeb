@@ -1,0 +1,60 @@
+<%= form_for(@provider,role:"form") do |f|%>
+  <% if @provider.errors.any? %>
+    <div id="error_explanation">
+      <h2>No se pudo guaradar el proveedor ocurrieron <%= pluralize(@provider.errors.count, "errore") %>: </h2>
+
+      <ul>
+      <% @provider.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+    <div class="form-group">
+  <div class="file">
+    <%= f.label :nombre %><br>
+    <%= f.text_field :name, class: "form-control" %>
+    </div>
+    </div>
+
+    <div class="form-group">
+  <div class="file">
+    <%= f.label :telefono %><br>
+    <%= f.text_field :phone, class: "form-control" %>
+  </div>
+    </div>
+
+    <div class="form-group">
+  <div class="field">
+    <%= f.label :calle %><br>
+    <%= f.text_field :street, class: "form-control" %>
+  </div>
+      </div>
+
+      <div class="form-group">
+  <div class="field">
+    <%= f.label :numbero %><br>
+    <%= f.number_field :number, class: "form-control" %>
+  </div>
+      </div>
+
+    <div class="form-group">
+      <div class="field">
+        <%= f.label :colonia %><br>
+        <%= f.text_field :colony, class: "form-control" %>
+      </div>
+    </div>
+
+      <div class="form-group">
+  <div class="field ">
+    <%= f.label :estado %><br>
+    <%= f.collection_select(:state_id, State.order(:state),:id, :state, {prompt: "--Selecciona una opción--" }, {class: "form-control"}) %>
+  </div>
+        </div>
+
+  <div class="actions">
+    <%= f.submit @accion, class: "btn btn-success" %>
+  </div>
+
+<% end %>
